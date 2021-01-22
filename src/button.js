@@ -1,3 +1,6 @@
 module.exports = (buttonName) => {
-    return `Button: ${buttonName}`
+    const button = document.createElement('button');
+    button.textContent = buttonName;
+
+    return button;
 }
